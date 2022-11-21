@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+.sec-feature .tab-content:not(:first-of-type) {
+    display: none;
+}
+
+  @layer components {
+    .tab-active{
+        @apply bg-[#e3e0e0] rounded-[30px];
+    }
+    .tab:hover{
+        @apply bg-[#e3e0e0] rounded-[30px];
+    }
+    .sec-feature .tab-content:not(:first-of-type) {
+        @apply hidden;
+    }
+    .btn-hover:hover{
+        @apply bg-[#51277a];
+    }
+    @font-face {
+        font-family: 'Optima-Medium';
+        src: url('../fonts/Optima-Medium.eot');
+        src: url('../fonts/Optima-Medium.eot?#iefix') format('embedded-opentype'),
+            url('../fonts/Optima-Medium.woff2') format('woff2'),
+            url('../fonts/Optima-Medium.woff') format('woff'),
+            url('../fonts/Optima-Medium.ttf') format('truetype'),
+            url('../fonts/Optima-Medium.svg#Optima-Medium') format('svg');
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Optima-Bold';
+        src: url('../fonts/Optima-Bold.eot');
+        src: url('../fonts/Optima-Bold.eot?#iefix') format('embedded-opentype'),
+            url('../fonts/Optima-Bold.woff2') format('woff2'),
+            url('../fonts/Optima-Bold.woff') format('woff'),
+            url('../fonts/Optima-Bold.ttf') format('truetype'),
+            url('../fonts/Optima-Bold.svg#Optima-Bold') format('svg');
+        font-weight: bold;
+        font-style: normal;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'Avenir-Heavy';
+        src: url('../fonts/Avenir-Heavy.eot');
+        src: url('../fonts/Avenir-Heavy.eot?#iefix') format('embedded-opentype'),
+            url('../fonts/Avenir-Heavy.woff2') format('woff2'),
+            url('../fonts/Avenir-Heavy.woff') format('woff'),
+            url('../fonts/Avenir-Heavy.ttf') format('truetype'),
+            url('../fonts/Avenir-Heavy.svg#Avenir-Heavy') format('svg');
+        font-weight: bold;
+        font-style: normal;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'MyanmarMN';
+        src: url('../fonts/MyanmarMN.eot');
+        src: url('../fonts/MyanmarMN.eot?#iefix') format('embedded-opentype'),
+            url('../fonts/MyanmarMN.woff2') format('woff2'),
+            url('../fonts/MyanmarMN.woff') format('woff'),
+            url('../fonts/MyanmarMN.ttf') format('truetype'),
+            url('../fonts/MyanmarMN.svg#MyanmarMN') format('svg');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'Avenir-Black';
+        src: url('../fonts/Avenir-Black.eot');
+        src: url('../fonts/Avenir-Black.eot?#iefix') format('embedded-opentype'),
+            url('../fonts/Avenir-Black.woff2') format('woff2'),
+            url('../fonts/Avenir-Black.woff') format('woff'),
+            url('../fonts/Avenir-Black.ttf') format('truetype'),
+            url('../fonts/Avenir-Black.svg#Avenir-Black') format('svg');
+        font-weight: 900;
+        font-style: normal;
+        font-display: swap;
+    }
+  }

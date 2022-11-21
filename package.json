@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.8",
+    "cssnano": "^5.1.14",
+    "postcss": "^8.4.19",
+    "postcss-cli": "^10.0.0",
+    "tailwindcss": "^3.2.4"
+  }
+}
